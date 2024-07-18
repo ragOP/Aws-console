@@ -248,6 +248,22 @@ export default function Fifth_SP() {
     console.log("ht");
   }, [step]);
 
+  const [time, setTime] = useState("");
+
+  function setDate () {
+    let date1 = new Date();
+    let date2 = date1.toLocaleDateString('en-US', {
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric',
+    });
+    setTime(date2);
+  }
+
+  useEffect(() => {
+    setDate();
+  })
+
   const topScroll = (id: any) => {
     scrollTo({ id });
   };
@@ -333,7 +349,7 @@ export default function Fifth_SP() {
             <div className="main-descrition-5-5">
               <div className="main-des-title-6-7">
                 <b>
-                All Americans on Medi Can Claim Their $900 Allowance Card in July 11th 2024
+                All Americans on Medi Can Claim Their $900 Allowance Card in {time}
                 </b>
                 {/* <span style={{"color": "red"}}>&nbsp;(FINAL CHANCE)</span> */}
               </div>
@@ -345,7 +361,7 @@ $900 'Allowance' Benefit Card That Helps Cover The Cost of Living Expenses. Amer
 use the funds to cover their Food, Bills
 Medicines, etc. at Walmart and many other participating stores! <br/> <br /> This 2024 Allowance
 Benefit helps cover dental or vision care, healthy groceries, bills, over-the-counter items, and so much more.
-If you haven't yet claimed your allowance then Answer The Questions below </div>
+<b>If you haven't yet claimed your allowance then Answer The Questions below </b></div>
               {/* <div className="main-des-5"  style={{marginTop:'-5px'}}>
               If you have not yet claimed your monthly allowance then answer the questions below and once approved <b>you will have your $3,600 Grocery Allowance mailed to you within a few days ready for use!</b>
               </div> */}
