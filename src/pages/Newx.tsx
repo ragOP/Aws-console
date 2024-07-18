@@ -182,7 +182,7 @@ export default function Fifth_SP() {
     });
   };
 
-  const [quiz, setQuiz] = useState("Are you over the age of 64?  ");
+  const [quiz, setQuiz] = useState("Are You Over 61?");
   const [step, setStep] = useState("process");
   const [min, setMin] = useState(3);
   const [second, setSecond] = useState<any>(0);
@@ -254,10 +254,10 @@ export default function Fifth_SP() {
 
   const handleQuizP = () => {
     topScroll("btn");
-    if (quiz === "Are you over the age of 64?  ") {
+    if (quiz === "Are You Over 61?") {
       setYes("Yes")
       setNo("No")
-      setQuiz("2. Do you live in the United States?");
+      setQuiz("Are You A US Citizen/Resident?");
     } else {
       setStep("Reviewing Your Answers...");
      
@@ -289,10 +289,10 @@ export default function Fifth_SP() {
 
   const handleQuizN = () => {
     topScroll("btn");
-    if (quiz === "Are you over the age of 60?  ") {
+    if (quiz === "Are You Over 61?") {
       setYes("Yes")
       setNo("No")
-      setQuiz("2. Do you live in the United States?");
+      setQuiz("Are You A US Citizen/Resident?");
     } else {
       setStep("Reviewing Your Answers...");
     
@@ -333,9 +333,9 @@ export default function Fifth_SP() {
             <div className="main-descrition-5-5">
               <div className="main-des-title-6-7">
                 <b>
-                Claim Your Food Allowance Card Worth $900!
+                All Americans on Medi Can Claim Their $900 Allowance Card in July 11th 2024
                 </b>
-                <span style={{"color": "red"}}>&nbsp;(FINAL CHANCE)</span>
+                {/* <span style={{"color": "red"}}>&nbsp;(FINAL CHANCE)</span> */}
               </div>
               {/* <img className='topic-img-larger' src = {Headline} alt = "head"/> */}
               <img className="topic-img-middle-z" src={Head_bg} alt="head" />
