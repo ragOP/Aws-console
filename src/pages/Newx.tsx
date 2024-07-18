@@ -339,10 +339,13 @@ export default function Fifth_SP() {
               </div>
               {/* <img className='topic-img-larger' src = {Headline} alt = "head"/> */}
               <img className="topic-img-middle-z" src={Head_bg} alt="head" />
-              {/* <div  style={{marginTop:'14px'}}className="main-des-5">
-              Americans over 65 years old can claim the 2024 Grocery Allowance Card that gives them up to $3600. Americans can use the funds to fully cover their Groceries, Medicines, etc. at Walmart and thousands of other participating stores!
-
-              </div> */}
+              <div  style={{marginTop:'14px'}}className="main-des-5">
+Americans On Medi Are Eligible For The 2024
+$900 'Allowance' Benefit Card That Helps Cover The Cost of Living Expenses. Americans can
+use the funds to cover their Food, Bills
+Medicines, etc. at Walmart and many other participating stores! This 2024 Allowance
+Benefit helps cover dental or vision care, healthy groceries, bills, over-the-counter items, and so much more.
+If you haven't yet claimed your allowance then Answer The Questions below </div>
               {/* <div className="main-des-5"  style={{marginTop:'-5px'}}>
               If you have not yet claimed your monthly allowance then answer the questions below and once approved <b>you will have your $3,600 Grocery Allowance mailed to you within a few days ready for use!</b>
               </div> */}
