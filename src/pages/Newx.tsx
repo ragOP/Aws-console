@@ -364,9 +364,9 @@ If you haven't yet claimed your allowance then Answer The Questions below </div>
                 </div>
               </div>
             </div>
-            <img style={{marginTop: "40px"}} className="topic-img-middle-z" src={one} alt="head" />
+            {/* <img style={{marginTop: "40px"}} className="topic-img-middle-z" src={one} alt="head" />
             <div className='' style = {{marginTop:"1rem", textAlign: "center", padding: "0 10%", fontSize: "10px"}}><b>Find D-SNPs from Medicare Advantage carriers like Humana,
-            UnitedHealthcare® and Aetna.</b></div>
+            UnitedHealthcare® and Aetna.</b></div> */}
             <img style={{margin: "94% 0% 8% 0%"}} className="topic-img-middle-z" src={two} alt="head" />
             <div className="main-des-5"  style={{marginTop:'-5px'}}>
             Participating sales agencies represent
