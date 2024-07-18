@@ -205,7 +205,7 @@ a{
   @media (max-width: 768px) { /* Adjust the breakpoint as needed */
     .main-des-title-6-7 {
     // margin-top: -0.1rem;
-      font-size: 2rem; /* Reduce the font size for smaller screens */
+      font-size: 1.6rem; /* Reduce the font size for smaller screens */
       line-height: 1.2; /* Adjust the line height as needed */
     }
   }
@@ -254,7 +254,7 @@ a{
     margin: 1rem 0;
     text-align: left;
     color: #1f2937;
-    padding: 0 10%;
+    padding: 0 0%;
   }
   .main-des-5-t{
     
@@ -304,7 +304,7 @@ a{
     gap: 10px;
     margin-top: 1.2rem;
     justify-items: center;
-    padding: 0 6%;
+    padding: 0 4%;
   }
   
   .answer-btn{
@@ -396,6 +396,10 @@ a{
   
   .answer-btn:hover{
     background-color: rgb(34, 155, 78);
+  }
+
+  .green:hover{
+    background-color: #34C759 !important;
   }
 
   .answer-btn-5:hover{
@@ -694,7 +698,7 @@ a{
       margin-top: 1rem;
     }
     .quiz-5{
-      font-size: 1.5rem;
+      font-size: 1.6rem;
       line-height: 2rem;
       margin-top: 30px;
     }

@@ -343,7 +343,7 @@ export default function Fifth_SP() {
 Americans On Medi Are Eligible For The 2024
 $900 'Allowance' Benefit Card That Helps Cover The Cost of Living Expenses. Americans can
 use the funds to cover their Food, Bills
-Medicines, etc. at Walmart and many other participating stores! This 2024 Allowance
+Medicines, etc. at Walmart and many other participating stores! <br/> <br /> This 2024 Allowance
 Benefit helps cover dental or vision care, healthy groceries, bills, over-the-counter items, and so much more.
 If you haven't yet claimed your allowance then Answer The Questions below </div>
               {/* <div className="main-des-5"  style={{marginTop:'-5px'}}>
@@ -356,7 +356,7 @@ If you haven't yet claimed your allowance then Answer The Questions below </div>
                 {quiz}
               </div>
               <div  className="answer">
-                <div className="answer-btn-5 answer-yes" onClick={handleQuizP}>
+                <div className="answer-btn-5 green answer-yes" onClick={handleQuizP}>
               {yes}
                 </div>
                 <div className="answer-btn-5 answer-no" onClick={handleQuizN}>
