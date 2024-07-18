@@ -402,7 +402,7 @@ Benefit helps cover dental or vision care, healthy groceries, bills, over-the-co
         <div className="checking">
           <div className="congrats">Congratulation, You Qualify!</div>
           <div className="top-description-5">
-            Make A <b>Quick Call</b> To Claim Your Grocery Allowance!
+            Make A <b>Quick Call</b> To Claim Your Food Allowance!
           </div>
           <div className="spots-count">Spots remaining: 4</div>
           <div className="tap-direction">👇 TAP BELOW TO CALL 👇</div>
